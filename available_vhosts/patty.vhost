@@ -1,0 +1,7 @@
+<VirtualHost *:80>
+	ServerName *
+	DocumentRoot /var/www/html
+	<Directory /var/www/html/>
+		allow all granted
+	</Directory>
+<VirtualHost/>
